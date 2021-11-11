@@ -2,7 +2,7 @@ package Lab01_1;
 import java.util.Scanner;
 public class Q1_1 {
 	public static void main(String[] args) {
-		int Value = 5000;
+		int Value = 4000;
 		int number;
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Input your number :");
