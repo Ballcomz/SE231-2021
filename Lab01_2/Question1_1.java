@@ -5,9 +5,9 @@ public class Question1_1{
         int answer;
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter 2 numbers");
-        answer = myMax(scan.nextInt(),scan.nextInt());
+        answer = myMin(scan.nextInt(),scan.nextInt());
 
-        System.out.println("Your max value is:"+answer);
+        System.out.println("Your min value is:"+answer);
     }
 
     public static int myMax(int x,int y){
