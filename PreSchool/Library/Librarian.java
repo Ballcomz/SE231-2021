@@ -14,6 +14,7 @@ public class Librarian {
         card1 = new LibraryCard();
         card1.setOwner(student);
         card1.checkout(3);
+        card1.checkout(3);
 
 
 

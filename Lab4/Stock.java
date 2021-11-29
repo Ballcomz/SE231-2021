@@ -33,4 +33,7 @@ public class Stock {
   public double getCurrentPrice(){
       return currentPrice;
   }
+  public String getName() {
+    return name;
+}
 }

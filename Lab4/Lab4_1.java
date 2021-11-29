@@ -9,12 +9,14 @@ public class Lab4_1 {
         stock1.setCurrentPrice(34.35);
   
         // Display stock info
+        System.out.println("Stock name "+stock1.getName());
         System.out.println("Previous Closing Price: " +
           stock1.getPreviousClosingPrice());
         System.out.println("Current Price: " +
           stock1.getCurrentPrice());
         System.out.println("Price Change: " +
           stock1.getChangePercent() * 100 + "%");
+
       }
   
 }
