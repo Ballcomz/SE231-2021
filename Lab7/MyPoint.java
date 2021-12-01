@@ -21,7 +21,7 @@ public class MyPoint {
           * (p1.y - p2.y));
     }
   
-    public static double distance(MyPoint p1, MyPoint p2) {
+    public static double distance1(MyPoint p1, MyPoint p2) {
       return p2.distance(p1);
     }
   
