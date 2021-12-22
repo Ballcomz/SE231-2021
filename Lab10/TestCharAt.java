@@ -6,6 +6,6 @@ public class TestCharAt {
         String word = "Chiang mai university";
 
         System.out.println("conting char :"+word.length());
-        System.out.println("char At [] --"+word.charAt(0));
+        System.out.println("char At [] --"+word.charAt(7));
     }
 }
