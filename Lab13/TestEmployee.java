@@ -1,3 +1,5 @@
+package Lab13;
+
 public class TestEmployee {
     public static void main(String[] args) {
         Specialist s1 = new Specialist("Kittitouch Suteeca","House keeper",50000.0,"clean floor");

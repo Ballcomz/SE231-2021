@@ -1,8 +1,8 @@
 package Lab12;
 
 public class GeometricObject {
-    private String color = "white";
-  private boolean filled;
+  protected static String color = "white";
+  protected static boolean filled;
   private java.util.Date dateCreated;
   
   /** Construct a default geometric object */

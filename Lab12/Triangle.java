@@ -7,12 +7,27 @@ public class Triangle extends GeometricObject{
   public Triangle() {
   }
 
-  /** Constructor */
-  public Triangle(double side1, double side2, double side3) {
+  public Triangle(double side1,double side2,double side3){
     this.side1 = side1;
     this.side2 = side2;
     this.side3 = side3;
   }
+  public Triangle(double side1,double side2,double side3,String color,boolean filled){
+    this.side1 = side1;
+    this.side2 = side2;
+    this.side3 = side3;
+    setColor(color);
+    setFilled(filled);
+  }
+  
+  /** Constructor */
+  // public Triangle(double side1, double side2, double side3) {
+  //  super(color, filled);
+  //   this.side1 = side1;
+  //   this.side2 = side2;
+  //   this.side3 = side3;
+  //}
+ 
   
   public double getSide1() {
     return side1;
@@ -28,8 +43,9 @@ public class Triangle extends GeometricObject{
   
   //@Override /** Override method findArea in GeometricObject */
   public double getArea() {
-    double s = (side1 + side2 + side3) / 2;
-    return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+    double s = (side1 + side2 + side3) / 2.0;
+    //return s;
+    return Math.sqrt(s * ((s - side1) * (s - side2) * (s - side3)));
   }
 
   //@Override /** Override method findPerimeter in GeometricObject */

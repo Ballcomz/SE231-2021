@@ -1,3 +1,5 @@
+package Lab13;
+
 public class Specialist extends Employee{
     private String certificate;
     

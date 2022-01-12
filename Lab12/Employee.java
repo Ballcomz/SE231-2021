@@ -5,7 +5,7 @@ public class Employee extends Person {
     protected int salary;
   
     Employee(String name) {
-      super(name);
+      super(name, address, phoneNumber, email);
     }
     
     @Override

@@ -1,3 +1,5 @@
+package Lab13;
+
 public class Worker extends Employee{
     private String task;
 

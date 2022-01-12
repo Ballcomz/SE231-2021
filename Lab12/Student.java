@@ -8,13 +8,14 @@ public class Student extends Person {
   
     protected int status;
   
-    Student(String name) {
-      super(name);
+    Student(String name,int status) {
+      super(name, address, phoneNumber, email);
+      this.status = status;
     }
     
     @Override
     public String toString() {
-      return "Student: " + getName();
+      return "Student: " + getName()+" Status: "+status+" Address: "+getAdd()+" Phone: "+getPhone()+" Email: "+getEmail();
     }
   
 }

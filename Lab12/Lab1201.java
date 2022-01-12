@@ -12,13 +12,13 @@ public class Lab1201 {
         
         Triangle triangle = new Triangle(side1, side2, side3);
         
-        System.out.print("Enter the color: ");
-        String color = input.next();
-        triangle.setColor(color);
+        // System.out.print("Enter the color: ");
+        // String color = input.next();
+        // triangle.setColor(color);
         
-        System.out.print("Enter a boolean value for filled: ");
-        boolean filled = input.nextBoolean();
-        triangle.setFilled(filled);
+        // System.out.print("Enter a boolean value for filled: ");
+        // boolean filled = input.nextBoolean();
+        // triangle.setFilled(filled);
     
         System.out.println("The area is " + triangle.getArea());
         System.out.println("The perimeter is "
