@@ -1,4 +1,3 @@
-package Lab5;
 
 public class TestCourse {
     public static void main(String[] args) {
