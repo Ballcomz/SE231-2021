@@ -1,4 +1,4 @@
-package LAB3;
+
 
 public class Dog {
     private String color;

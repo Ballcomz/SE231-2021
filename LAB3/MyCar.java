@@ -1,4 +1,4 @@
-package LAB3;
+
 
 public class MyCar {
     public static void main(String[] args) {

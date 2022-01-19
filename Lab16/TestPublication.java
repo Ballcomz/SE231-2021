@@ -1,4 +1,4 @@
-package Lab16;
+
 
 public class TestPublication {
     public static void main(String[] args) {

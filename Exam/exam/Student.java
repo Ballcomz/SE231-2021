@@ -1,4 +1,4 @@
-package Exam;
+package exam;
 
 public class Student {
     private String fname;

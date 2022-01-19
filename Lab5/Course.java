@@ -1,4 +1,4 @@
-package Lab5;
+//package Lab5;
 
 public class Course {
   private String courseName;

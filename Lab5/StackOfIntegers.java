@@ -1,4 +1,4 @@
-package Lab5;
+
 
 public class StackOfIntegers {
   private int[] elements;

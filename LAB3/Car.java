@@ -1,4 +1,4 @@
-package LAB3;
+
 //Class name
 public class Car {
     //Data field

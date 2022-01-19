@@ -1,4 +1,4 @@
-package Lab16;
+
 public class Publication {
     private String publisher;
     private int page_no;

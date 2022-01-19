@@ -1,4 +1,4 @@
-package Lab5;
+
 import java.util.Random;
 public class Lab52 {
 public static void main(String[] args) {

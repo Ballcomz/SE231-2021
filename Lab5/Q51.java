@@ -1,4 +1,4 @@
-package Lab5;
+
 import java.util.Date;
 public class Q51 {
   public static void main(String[] args) {

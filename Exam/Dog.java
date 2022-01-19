@@ -1,4 +1,4 @@
-package Exam;
+
 
 public class Dog extends Pet2{ // Missing 3
     String size;

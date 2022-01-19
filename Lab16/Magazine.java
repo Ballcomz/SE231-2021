@@ -1,4 +1,4 @@
-package Lab16;
+
 public class Magazine extends Publication{
     private String pub_unit;
 

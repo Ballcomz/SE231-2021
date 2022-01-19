@@ -1,4 +1,4 @@
-package Lab5;
+
 import java.util.Date; // import Date class
 public class Lab51 {
     public static void main(String[] args) {

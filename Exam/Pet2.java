@@ -1,4 +1,4 @@
-package Exam;
+
 
 public class Pet2 {
     public Pet2(String name, String species, String color, int age) {

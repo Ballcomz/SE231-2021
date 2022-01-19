@@ -1,4 +1,4 @@
-package Lab16;
+
 public class Book extends Publication{
     private String author;
 

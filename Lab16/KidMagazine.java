@@ -1,4 +1,4 @@
-package Lab16;
+
 
 public class KidMagazine extends Publication{
     private int rec_age;
