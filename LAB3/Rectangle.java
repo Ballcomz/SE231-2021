@@ -1,4 +1,4 @@
-package LAB3;
+//package LAB3;
 
 public class Rectangle {
     private float cWidth;

@@ -1,4 +1,4 @@
-public class SavingsAccount extends Account {
+public class SavingAccount extends Account{
     private final int WITHDRAW_LIMIT = 5;
     private int withdraw_no = 1;
 
