@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //package LAB3;
+=======
+
+>>>>>>> 15027dae4fe64d3d3b727c7a0a28969d98390638
 
 public class MyCar {
     public static void main(String[] args) {
